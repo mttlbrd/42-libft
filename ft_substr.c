@@ -33,3 +33,12 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(ptr, &s[start], sublen + 1);
 	return (ptr);
 }
+
+/* int main()
+{
+	printf("%s", ft_substr("mamma", 1, 5));
+} */
+// Allocates memory (using malloc(3)) and returns a
+// substring from the string ’s’.
+// The substring starts at index ’start’ and has a
+// maximum length of ’len’.

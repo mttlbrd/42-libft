@@ -6,7 +6,7 @@
 /*   By: matlabar <matlabar@student.42firenze.it    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/24 14:23:04 by matlabar          #+#    #+#             */
-/*   Updated: 2025/12/03 10:30:03 by matlabar         ###   ########.fr       */
+/*   Updated: 2025/12/03 08:34:50 by matlabar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,10 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
+
+/*
+int main(void)
+{
+	printf("%d\n", ft_isprint('T'));
+	printf("%d", isprint('T'));
+} */

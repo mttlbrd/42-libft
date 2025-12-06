@@ -84,3 +84,15 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (newstr(s, c, words, str));
 }
+
+/* int main()
+{
+	char **tab;
+	int i = 0;
+	tab = ft_split("hello 42 world test", ' ');
+	while (tab[i])
+	{
+		printf("%s\n", tab[i]);
+		i++;
+	}
+} */

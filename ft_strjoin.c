@@ -38,3 +38,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ptr[i + j] = '\0';
 	return (ptr);
 }
+
+/* int main()
+{
+	printf("%s", ft_strjoin("babbo"," natale"));
+} */

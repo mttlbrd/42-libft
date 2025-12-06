@@ -6,7 +6,7 @@
 /*   By: matlabar <matlabar@student.42firenze.it    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/25 16:02:45 by matlabar          #+#    #+#             */
-/*   Updated: 2025/12/03 10:30:37 by matlabar         ###   ########.fr       */
+/*   Updated: 2025/12/03 08:36:46 by matlabar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,10 @@ char	*ft_strchr(const char *s, int c)
 	}
 	return (NULL);
 }
+
+/* int main(void)
+{
+	char s[] = "asdfghjkl";
+	int c = 'n';
+	printf("%s\n", ft_strchr(s, c));
+} */

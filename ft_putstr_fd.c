@@ -22,3 +22,8 @@ void	ft_putstr_fd(char *s, int fd)
 		s++;
 	}
 }
+
+/* int main()
+{
+	ft_putstr_fd("tortellini", 1);
+} */

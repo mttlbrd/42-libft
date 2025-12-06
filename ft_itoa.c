@@ -55,3 +55,8 @@ char	*ft_itoa(int n)
 		res[0] = '-';
 	return (res);
 }
+
+/* int main(void)
+{
+	printf("%s\n", ft_itoa(12345));
+} */

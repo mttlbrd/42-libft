@@ -6,7 +6,7 @@
 /*   By: matlabar <matlabar@student.42firenze.it    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/24 11:48:27 by matlabar          #+#    #+#             */
-/*   Updated: 2025/12/03 10:30:57 by matlabar         ###   ########.fr       */
+/*   Updated: 2025/11/25 10:35:12 by matlabar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,11 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
+
+/* #include <stdio.h>
+int	main(void)
+{
+	char	str[] = "Lorem Ipsum";
+	printf("%d", ft_strlen(str));
+	return (0);
+} */

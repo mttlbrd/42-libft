@@ -6,7 +6,7 @@
 /*   By: matlabar <matlabar@student.42firenze.it    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/25 10:43:43 by matlabar          #+#    #+#             */
-/*   Updated: 2025/12/03 10:30:09 by matlabar         ###   ########.fr       */
+/*   Updated: 2025/12/03 08:35:23 by matlabar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,9 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+
+/* int main(void)
+{
+	char str[] = "Lorem ipsum";
+	printf("%s\n", (char *) ft_memchr(str, 'r', 12));
+} */

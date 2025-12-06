@@ -29,3 +29,18 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	ptr[i] = '\0';
 	return (ptr);
 }
+
+/* char aaa(unsigned int i, char c)
+{
+	i = 65;
+	return (c = i);
+}
+
+int main(void)
+{
+    char const str[] = "babbo natale";
+    char *new_str = ft_strmapi(str, &aaa);
+
+	printf("%s\n", str);
+	printf("%s\n", new_str);
+} */

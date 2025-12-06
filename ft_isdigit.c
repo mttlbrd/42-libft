@@ -6,7 +6,7 @@
 /*   By: matlabar <matlabar@student.42firenze.it    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/24 12:35:55 by matlabar          #+#    #+#             */
-/*   Updated: 2025/12/03 10:29:59 by matlabar         ###   ########.fr       */
+/*   Updated: 2025/12/03 08:34:42 by matlabar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,10 @@ int	ft_isdigit(int c)
 		return (1);
 	return (0);
 }
+
+/*
+int main(void)
+{
+	printf("%d\n", ft_isdigit('a'));
+	printf("%d", ft_isdigit('4'));
+} */

@@ -23,3 +23,16 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
+
+/* void aaa(unsigned int i, char *c)
+{
+    *c = i + 65;
+}
+
+int main()
+{
+	char str[] = "babbo natale";
+	printf("%s\n", str);
+	ft_striteri(str, &aaa);
+	printf("%s\n", str);
+} */

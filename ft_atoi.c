@@ -6,7 +6,7 @@
 /*   By: matlabar <matlabar@student.42firenze.it    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/24 14:26:25 by matlabar          #+#    #+#             */
-/*   Updated: 2025/12/03 10:29:38 by matlabar         ###   ########.fr       */
+/*   Updated: 2025/12/03 08:33:45 by matlabar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,3 +35,9 @@ int	ft_atoi(const char	*nptr)
 	}
 	return (res * n);
 }
+
+/* int main()
+{
+	printf("%d\n", ft_atoi("12a34"));
+	printf("%d\n", atoi("12a34"));
+} */

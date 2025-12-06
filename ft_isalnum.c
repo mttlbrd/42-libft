@@ -6,7 +6,7 @@
 /*   By: matlabar <matlabar@student.42firenze.it    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/24 14:01:02 by matlabar          #+#    #+#             */
-/*   Updated: 2025/12/03 10:29:49 by matlabar         ###   ########.fr       */
+/*   Updated: 2025/12/03 08:34:25 by matlabar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,11 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
+
+/* 
+int main(void)
+{
+	printf("%d\n", ft_isalnum('A'));
+	printf("%d", isalnum('A'));
+} */
+// OK LOGIC + NORM

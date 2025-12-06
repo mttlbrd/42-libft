@@ -6,7 +6,7 @@
 /*   By: matlabar <matlabar@student.42firenze.it    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/25 16:10:08 by matlabar          #+#    #+#             */
-/*   Updated: 2025/12/03 10:30:40 by matlabar         ###   ########.fr       */
+/*   Updated: 2025/12/01 11:53:37 by matlabar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,9 @@ char	*ft_strdup(const char *s)
 	new[i] = '\0';
 	return (new);
 }
+
+/* int main(void)
+{
+	char str[] = "Charizard";
+	printf("%s", ft_strdup(str));
+} */

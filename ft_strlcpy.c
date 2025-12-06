@@ -28,3 +28,17 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	}
 	return (ft_strlen(src));
 }
+
+int	main(void)
+{
+	char	src[30] = "Patate e prezzemolo";
+	char	dst[10] = "123456789";
+	size_t	size = 10;
+	size_t	tot;
+
+	tot = ft_strlcpy(dst, src, size);
+	printf("dst: \"%s\"\n", dst);
+	printf("Lunghezza totale attesa: %zu\n", tot);
+	
+	return (0);
+}

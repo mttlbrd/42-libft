@@ -6,7 +6,7 @@
 /*   By: matlabar <matlabar@student.42firenze.it    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/28 16:55:43 by matlabar          #+#    #+#             */
-/*   Updated: 2025/12/03 10:31:07 by matlabar         ###   ########.fr       */
+/*   Updated: 2025/11/28 17:44:05 by matlabar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,10 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
+
+/* int main(void)
+{
+	char big[] = "questa è la mia casa";
+	char little[] = "la";
+	printf("%s", ft_strnstr(big, little, 38));
+} */

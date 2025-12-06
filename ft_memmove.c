@@ -6,7 +6,7 @@
 /*   By: matlabar <matlabar@student.42firenze.it    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/25 11:55:11 by matlabar          #+#    #+#             */
-/*   Updated: 2025/12/03 10:30:20 by matlabar         ###   ########.fr       */
+/*   Updated: 2025/12/03 08:35:54 by matlabar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,15 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+
+/* int	main(void)
+{
+	char src[100] = "melapera";
+	char src2[100] = "melapera";
+	
+	ft_memmove(src+2, src, 30);
+	printf("ft_memmove %s\n", src);
+
+	memmove(src+2, src2, 30);
+	printf("memmove    %s\n", src);
+} */
